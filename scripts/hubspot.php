@@ -15,7 +15,7 @@
 		//print_r($createdContact);
 		$newly_created_vid = $createdContact->{'vid'};
 		
-		header("Location: http://tiinyhouse.com/thanks.html"); /* Redirect browser */
+		header("Location: http://tiinyhouse.com/thanks"); /* Redirect browser */
 		exit();
 		
 	/*		
